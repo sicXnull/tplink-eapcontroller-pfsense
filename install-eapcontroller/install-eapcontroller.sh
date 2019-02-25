@@ -104,7 +104,7 @@ AddPkg python2
 AddPkg v8
 AddPkg icu
 AddPkg boost-libs
-AddPkg mongodb36
+AddPkg mongodb34
 #AddPkg unzip
 AddPkg pcre
 AddPkg alsa-lib
@@ -129,7 +129,7 @@ AddPkg java-zoneinfo
 #AddPkg libXt
 #AddPkg libfontenc
 #AddPkg mkfontscale
-#AddPkg mkfontdir
+AddPkg mkfontdir
 AddPkg dejavu
 #AddPkg recordproto
 #AddPkg libXtst
