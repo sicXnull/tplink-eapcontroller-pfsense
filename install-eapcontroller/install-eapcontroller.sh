@@ -114,7 +114,7 @@ AddPkg fontconfig
 #AddPkg kbproto
 AddPkg xorgproto
 AddPkg libXdmcp
-#ddPkg libpthread-stubs
+AddPkg libpthread-stubs
 AddPkg libXau
 AddPkg libxcb
 #AddPkg libICE
