@@ -102,12 +102,12 @@ AddPkg () {
 AddPkg snappy
 AddPkg python2
 AddPkg v8
-AddPkg mongodb
+AddPkg mongodb36
 #AddPkg unzip
 AddPkg pcre
-#AddPkg alsa-lib
+AddPkg alsa-lib
 #AddPkg freetype2
-#AddPkg fontconfig
+AddPkg fontconfig
 #AddPkg xproto
 #AddPkg kbproto
 #AddPkg libXdmcp
