@@ -127,7 +127,7 @@ AddPkg java-zoneinfo
 #AddPkg libXext
 #AddPkg libXi
 #AddPkg libXt
-#AddPkg libfontenc
+AddPkg libfontenc
 AddPkg mkfontscale
 AddPkg mkfontdir
 AddPkg dejavu
