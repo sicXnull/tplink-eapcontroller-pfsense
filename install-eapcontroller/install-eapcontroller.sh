@@ -116,7 +116,7 @@ AddPkg xorgproto
 AddPkg libXdmcp
 #ddPkg libpthread-stubs
 AddPkg libXau
-#AddPkg libxcb
+AddPkg libxcb
 #AddPkg libICE
 #AddPkg libSM
 AddPkg java-zoneinfo
