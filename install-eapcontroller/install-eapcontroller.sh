@@ -122,7 +122,7 @@ AddPkg java-zoneinfo
 #AddPkg fixesproto
 #AddPkg xextproto
 #AddPkg inputproto
-#AddPkg libX11
+AddPkg libX11
 #AddPkg libXfixes
 #AddPkg libXext
 #AddPkg libXi
