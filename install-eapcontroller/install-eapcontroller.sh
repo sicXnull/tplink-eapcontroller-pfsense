@@ -135,7 +135,7 @@ AddPkg dejavu
 #AddPkg recordproto
 #AddPkg libXtst
 #AddPkg renderproto
-#AddPkg libXrender
+AddPkg libXrender
 AddPkg javavmwrapper
 AddPkg giflib
 AddPkg openjdk8
