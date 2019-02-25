@@ -136,7 +136,7 @@ AddPkg dejavu
 #AddPkg renderproto
 #AddPkg libXrender
 AddPkg javavmwrapper
-#AddPkg giflib
+AddPkg giflib
 AddPkg openjdk8
 AddPkg snappyjava
 
