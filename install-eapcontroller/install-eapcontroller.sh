@@ -126,7 +126,7 @@ AddPkg java-zoneinfo
 AddPkg libX11
 #AddPkg libXfixes
 AddPkg libXext
-#AddPkg libXi
+AddPkg libXi
 #AddPkg libXt
 AddPkg libfontenc
 AddPkg mkfontscale
