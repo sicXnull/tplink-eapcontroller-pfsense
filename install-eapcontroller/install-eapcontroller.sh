@@ -102,6 +102,7 @@ AddPkg () {
 AddPkg snappy
 AddPkg python2
 AddPkg v8
+AddPkg icu
 AddPkg boost-libs
 AddPkg mongodb36
 #AddPkg unzip
