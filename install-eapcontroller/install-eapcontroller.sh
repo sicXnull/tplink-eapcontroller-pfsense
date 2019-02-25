@@ -133,7 +133,7 @@ AddPkg mkfontscale
 AddPkg mkfontdir
 AddPkg dejavu
 #AddPkg recordproto
-#AddPkg libXtst
+AddPkg libXtst
 #AddPkg renderproto
 AddPkg libXrender
 AddPkg javavmwrapper
