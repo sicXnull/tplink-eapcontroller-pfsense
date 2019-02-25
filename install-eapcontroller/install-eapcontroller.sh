@@ -5,7 +5,7 @@
 
 # The latest version of EAPController:
 EAP_SOFTWARE_FOLDER="Omada_Controller_v3.0.5_linux_x64"
-EAP_SOFTWARE_URL="https://static.tp-link.com/2018/201811/20181108/"${EAP_SOFTWARE_FOLDER}".tar.gz"
+EAP_SOFTWARE_URL="https://static.tp-link.com/2018/201811/20181108/"${EAP_SOFTWARE_FOLDER}".tar.gz.zip"
 
 
 
@@ -158,7 +158,7 @@ echo " done."
 # (the -o option overwrites the existing files without complaining)
 echo -n "Installing EAP Controller in /opt/tplink/EAPController..."
 mkdir /tmp/eapc
-tar -xvzC /tmp/eapc -f ${EAP_SOFTWARE_FOLDER}.tar.gz
+tar -xvzC /tmp/eapc -f ${EAP_SOFTWARE_FOLDER}.tar.gz.zip
 mkdir /opt
 mkdir /opt/tplink
 mv /tmp/eapc/${EAP_SOFTWARE_FOLDER}  /opt/tplink/EAPController
