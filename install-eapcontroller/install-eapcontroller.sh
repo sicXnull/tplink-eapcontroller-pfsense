@@ -118,7 +118,7 @@ AddPkg libpthread-stubs
 AddPkg libXau
 AddPkg libxcb
 AddPkg libICE
-#AddPkg libSM
+AddPkg libSM
 AddPkg java-zoneinfo
 #AddPkg fixesproto
 #AddPkg xextproto
