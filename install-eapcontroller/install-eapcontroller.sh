@@ -127,7 +127,7 @@ AddPkg libX11
 AddPkg libXfixes
 AddPkg libXext
 AddPkg libXi
-#AddPkg libXt
+AddPkg libXt
 AddPkg libfontenc
 AddPkg mkfontscale
 AddPkg mkfontdir
