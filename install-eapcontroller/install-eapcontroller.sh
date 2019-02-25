@@ -158,7 +158,8 @@ echo " done."
 # (the -o option overwrites the existing files without complaining)
 echo -n "Installing EAP Controller in /opt/tplink/EAPController..."
 mkdir /tmp/eapc
-tar -xvzC /tmp/eapc -f ${EAP_SOFTWARE_FOLDER}.tar.gz.zip
+unzip ${EAP_SOFTWARE_FOLDER}.tar.gz.zip
+tar -xvzC /tmp/eapc -f ${EAP_SOFTWARE_FOLDER}.tar.gz
 mkdir /opt
 mkdir /opt/tplink
 mv /tmp/eapc/${EAP_SOFTWARE_FOLDER}  /opt/tplink/EAPController
