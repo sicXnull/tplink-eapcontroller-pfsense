@@ -112,6 +112,7 @@ AddPkg freetype2
 AddPkg fontconfig
 #AddPkg xproto
 #AddPkg kbproto
+AddPkg xorgproto
 AddPkg libXdmcp
 #ddPkg libpthread-stubs
 AddPkg libXau
