@@ -85,7 +85,7 @@ echo " done."
 # Install mongodb, OpenJDK, and unzip (required to unpack Ubiquiti's download):
 # -F skips a package if it's already installed, without throwing an error.
 echo "Installing required packages..."
-tar xv -C / -f /usr/local/share/pfSense/base.txz ./usr/bin/install
+#tar xv -C / -f /usr/local/share/pfSense/base.txz ./usr/bin/install
 #uncomment below for pfSense 2.2.x:
 #env ASSUME_ALWAYS_YES=YES /usr/sbin/pkg install mongodb openjdk unzip pcre v8 snappy
 
@@ -102,11 +102,12 @@ AddPkg () {
 AddPkg snappy
 AddPkg python2
 AddPkg v8
+AddPkg boost-libs
 AddPkg mongodb36
 #AddPkg unzip
 AddPkg pcre
 AddPkg alsa-lib
-#AddPkg freetype2
+AddPkg freetype2
 AddPkg fontconfig
 #AddPkg xproto
 #AddPkg kbproto
