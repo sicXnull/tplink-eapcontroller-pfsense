@@ -4,7 +4,7 @@
 # Installs the EAP Controller software on a FreeBSD machine (presumably running pfSense).
 
 # The latest version of EAPController:
-EAP_SOFTWARE_FOLDER="EAP_Controller_v2.5.3_linux_x64"
+EAP_SOFTWARE_FOLDER="EAP_Controller_v3.2.10_linux_x64"
 EAP_SOFTWARE_URL="https://static.tp-link.com/resources/software/"${EAP_SOFTWARE_FOLDER}".tar.gz"
 
 
