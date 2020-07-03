@@ -171,7 +171,7 @@ echo -n "Updating Java link..."
 /bin/ln -sf ${JAVA_HOME} /opt/tplink/EAPController/jre
 echo " done."
 
-return
+#return
 
 # If partition size is < 4GB, add smallfiles option to mongodb
 #echo -n "Checking partition size..."
